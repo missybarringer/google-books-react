@@ -12,7 +12,7 @@ class Home extends Component {
   state = {
     books: [],
     q: "",
-    message: "Search For A Book To Begin!"
+    message: "Simply search for books via the Google Books API!"
   };
 
   handleInputChange = event => {
@@ -63,9 +63,10 @@ class Home extends Component {
           <Col size="md-12">
             <Jumbotron>
               <h1 className="text-center">
-                <strong>(React) Google Books Search</strong>
+                <img src="../../images/cesar-viteri-426877-unsplash.jpg" class="img-thumbnail" alt="book sign" height="150" width="200"></img>
+                <strong> React Google Books Search</strong>
               </h1>
-              <h2 className="text-center">Search for and Save Books of Interest.</h2>
+              <h2 className="text-center">Search for and Save Books to Read or Buy Later.</h2>
             </Jumbotron>
           </Col>
           <Col size="md-12">
@@ -104,7 +105,7 @@ class Home extends Component {
                   ))}
                 </List>
               ) : (
-                <h2 className="text-center">{this.state.message}</h2>
+                <h4 className="text-center">{this.state.message}</h4>
               )}
             </Card>
           </Col>

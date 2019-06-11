@@ -35,11 +35,12 @@ class Saved extends Component {
       <Container>
         <Row>
           <Col size="md-12">
-            <Jumbotron>
+          <Jumbotron>
               <h1 className="text-center">
-                <strong>(React) Google Books Search</strong>
+                <img src="../../images/cesar-viteri-426877-unsplash.jpg" class="img-thumbnail" alt="book sign" height="150" width="200"></img>
+                <strong> React Google Books Search</strong>
               </h1>
-              <h2 className="text-center">Search for and Save Books of Interest.</h2>
+              <h2 className="text-center">Saved Books to Read or Buy Later.</h2>
             </Jumbotron>
           </Col>
         </Row>
