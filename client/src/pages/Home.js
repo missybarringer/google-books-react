@@ -96,7 +96,7 @@ class Home extends Component {
                       Button={() => (
                         <button
                           onClick={() => this.handleBookSave(book.id)}
-                          className="btn btn-primary ml-2"
+                          className="btn btn-dark ml-2"
                         >
                           Save
                         </button>

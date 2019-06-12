@@ -1,29 +1,50 @@
-# Create React Express App
+# Google Books Search
 
-## About This Boilerplate
+## Contributors
+@missybarringer
+____________________________________
+## Technologies Used
+* React - includes Webpack & Babel
+* Javascript ES6
+* Node.js
+* Express.js
+* HTML5
+* Bootstrap
+* CSS
+** dependencies
+    * axios
+    * express
+    * if-env
+    * mongoose
+    * react
+    * react-dom
+    * react-router-dom
+    * react-scripts
+* MongoDB database
+____________________________________
+## Links
+* [Click here to View the Google Search App in action](https://google-books-react-vbc.herokuapp.com/)
+* [GitHub Repository Link](https://github.com/missybarringer/react-google-books.git)
+![alt text](http://webwabisabi.com/img/GoogleBookSearch.PNG)
+____________________________________
+## Overview
+React Google Books Search using the Google Books API and create-react-app.
+____________________________________
+## Technical specifications
+This application demonstrates a full stack application using the MVC model (Model–View–Controller). HTML/CSS and React were used for the front end of the application. The backend of the application was implemented with Node, Express, and MongoDB for the database. The application's UI was built using React components, React lifecycle methods were used to query & display books from the Google books API based on their searches. On the search page, the user can click a "View" button to view the book on Google books, or they can click a "Save" button to save it to the Mongo database. On the Saved page, the user can see all of the current "Saved" books from the Mongo database. They can view the book on Google books from here or they can delete it from the Mongo database.
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
-
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
-
-## Starting the app locally
-
-Start by installing front and backend dependencies. While in this directory, run the following command:
-
-```
-npm install
-```
-
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
-
-```
-npm start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+Mongoose was used to connect to the MongoDB database and for creating the Book schema
+![alt text](/client/images/homework-20.png)
+____________________________________
+## License
+*This product is licensed under the MIT License (MIT).
+____________________________________
+## Contributing Guidelines
+All contributions and suggestions are welcome!
+For direct contributions, please fork the repository and file a pull request.
+____________________________________
+## Contact
+* e-mail: barringer.margaret@gmail.com
+* Twitter: @webwabisabi_com
+* Instagram: @webwabisabi_com
+* Added to [Personal Portfolio webpage](https://missybarringer.github.io/)
