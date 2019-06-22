@@ -27,7 +27,7 @@ ____________________________________
 * [GitHub Repository Link](https://github.com/missybarringer/react-google-books.git)
 ![alt text](./screenshots/GoogleBookSearch.PNG)
 * Saved Page
-![alt text](./screenshots/GoogleBookSearhSaved.PNG)
+![alt text](./screenshots/GoogleBookSearchSaved.PNG)
 ____________________________________
 ## Overview
 React Google Books Search using the Google Books API and create-react-app.
