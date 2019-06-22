@@ -24,7 +24,7 @@ ____________________________________
 ____________________________________
 ## Links
 * [Click here to View the Google Search App in action](https://google-books-react-vbc.herokuapp.com/)
-* [GitHub Repository Link](https://github.com/missybarringer/react-google-books.git)
+* [GitHub Repository Link](https://github.com/missybarringer/google-books-react.git)
 ![alt text](./screenshots/GoogleBookSearch.PNG)
 * Saved Page
 ![alt text](./screenshots/GoogleBookSearchSaved.PNG)
