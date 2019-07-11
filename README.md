@@ -32,6 +32,12 @@ ____________________________________
 ## Overview
 React Google Books Search using the Google Books API and create-react-app.
 ____________________________________
+## Problem
+Users need a way to search Google Books with the option of saving those books that they are interested in for later viewing
+____________________________________
+## Solution
+Created a React application that performs CRUD (create, read, update-not needed, & delete) operations using a Mongo database.
+____________________________________
 ## Technical specifications
 This application demonstrates a full stack application using the MVC model (Model–View–Controller). HTML/CSS and React were used for the front end of the application. The backend of the application was implemented with Node, Express, and MongoDB for the database. The application's UI was built using React components, React lifecycle methods were used to query & display books from the Google books API based on their searches. On the search page, the user can click a "View" button to view the book on Google books, or they can click a "Save" button to save it to the Mongo database. On the Saved page, the user can see all of the current "Saved" books from the Mongo database. They can view the book on Google books from here or they can delete it from the Mongo database.
 
@@ -52,4 +58,4 @@ ____________________________________
 * e-mail: barringer.margaret@gmail.com
 * Twitter: @webwabisabi_com
 * Instagram: @webwabisabi_com
-* Added to [Personal Portfolio webpage](https://missybarringer.github.io/)
+* [Website](www.WebWabiSabi.com)
